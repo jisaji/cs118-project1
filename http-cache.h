@@ -8,6 +8,7 @@ class Cache
 	public:
 		bool existsInCache(string path, string host);
 		bool isExpired(string path, string host);
+		void replaceExpireTime(string path, string host, string time);
 };
 
 #endif
